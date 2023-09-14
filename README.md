@@ -61,3 +61,4 @@ const Dashcam = new Vue({
         dashMessageTwo: "Any unauthorized use is subject to heavy penalty." -- You can customize the message 
     },
 ```
+**Credits to: [xander1998](https://github.com/xander1998/dashcam)**

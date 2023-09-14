@@ -6,18 +6,15 @@
 *******************************************
 ```
 
-**His resource has been archived since 2020 and I've made some good changes, so I thought that maybe someone needs this resource but with better overlay.**
+**xander1998's resource has been archived since 2020, so I've made some good changes and new look, thought that maybe someone needs this resource but with better overlay.**
 
-**Credits: [xander1998](https://github.com/xander1998/dashcam)**
+**Credits to: [xander1998](https://github.com/xander1998/dashcam)**
 
 This dashcam will show your name that you made INSIDE FiveM and not the name of your FiveM forum account, so before entering the server, check your name in the config in the top right corner of FiveM main screen:
 
 ![Captura de Tela (633)](https://github.com/dsvipeer/ReworkedDashcam/assets/112516086/2c495b05-c24d-4616-b0db-dcb7c49720ae)
 
-
-
 # **Previews:**
-
 
 ![Captura de Tela (632)](https://github.com/dsvipeer/ReworkedDashcam/assets/112516086/81e3f526-f838-4c5a-a7d2-2d7abd2cb963)
 

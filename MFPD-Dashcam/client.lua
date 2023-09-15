@@ -5,16 +5,16 @@ local cameraHandle = nil
 Citizen.CreateThread(function()
     while true do
         if dashcamActive then
-
             if dashcamActive and not IsPedInAnyVehicle(GetPlayerPed(PlayerId()), false) then
                 DisableDash()
                 dashcamActive = false
+                
+                StopRecordingAndSaveClip()
             end
 
             if IsPedInAnyVehicle(GetPlayerPed(PlayerId()), false) and dashcamActive then
                 UpdateDashcam()
             end
-
         end
         Citizen.Wait(1000)
     end
@@ -25,6 +25,8 @@ Citizen.CreateThread(function()
         if IsControlJustPressed(1, 26) and IsPedInAnyVehicle(GetPlayerPed(PlayerId()), false) then
             if dashcamActive then
                 DisableDash()
+                
+                StopRecordingAndSaveClip()
             else
                 EnableDash()
             end
@@ -52,6 +54,8 @@ function EnableDash()
                 type = "enabledash"
             })
             dashcamActive = true
+            
+            StartRecording(1)
         end
     else
         local cam = CreateCam("DEFAULT_SCRIPTED_CAMERA", 1)
@@ -62,6 +66,8 @@ function EnableDash()
             type = "enabledash"
         })
         dashcamActive = true
+       
+        StartRecording(1)
     end
 end
 

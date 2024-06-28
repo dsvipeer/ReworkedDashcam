@@ -1,0 +1,92 @@
+/* Import the Roboto Mono font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+#Dashcam_Body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+/* Apply the Roboto Mono font to specific elements */
+#Dashcam_Unitnumber,
+#Dashcam_Unitname,
+#Dashcam_Unitspeed,
+#Dashcam_Gametime,
+#Dashcam_Clocktime,
+#Dashcam_DateTime {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Your existing CSS styles for other elements */
+#Dashcam_Gametime,
+#Dashcam_Clocktime,
+#Dashcam_DateTime {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Container for the time elements */
+.time-container {
+    position: absolute;
+    left: 10px;
+    top: 310px;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a background color */
+    padding: 5px; /* Add some padding to separate the time elements */
+}
+
+/* New container style for #Dashcam_Info */
+.overlay-container {
+    position: absolute;
+    left: 50%;
+    top: calc(100% - 180px);
+    transform: translateX(-50%);
+    text-align: center; /* Center the content */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+/* Align #Dashcam_Unitnumber, #Dashcam_Unitname, and #Dashcam_Unitspeed with #Dashcam_Gametime, #Dashcam_Clocktime, and #Dashcam_DateTime */
+#Dashcam_Unitnumber {
+    position: relative; /* Change the position to relative */
+    right: 0; /* Reset the right value */
+    top: 0; /* Reset the top value */
+}
+
+#Dashcam_Unitname {
+    position: relative; /* Change the position to relative */
+    right: 0; /* Reset the right value */
+    top: 0; /* Reset the top value */
+}
+
+#Dashcam_Unitspeed {
+    position: relative; /* Change the position to relative */
+    right: 0; /* Reset the right value */
+    top: 0; /* Reset the top value */
+}
+
+/* Container for #Dashcam_Unitnumber, #Dashcam_Unitname, and #Dashcam_Unitspeed */
+.unit-container {
+    position: absolute;
+    right: 10px; /* Align to the right */
+    top: 300px; /* Adjust the top value */
+    background-color: rgba(0, 0, 0, 0.5); /* Add a background color */
+    padding: 5px; /* Add some padding to separate the unit elements */
+}
+
+#Dashcam_Image {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: calc(100% - 250px);
+    transform: translateX(-50%);
+    opacity: 0.2;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Xander1998's Dashcam</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="Dashcam_Body" v-show="showDash">
+        <div id="Dashcam_Data">
+            <div class="time-container"> <!-- Add the container for the time elements -->
+                <div id="Dashcam_Gametime">Video: {{ gameTime }}</div>
+                <div id="Dashcam_Clocktime">Time: {{clockTime.hour}} : {{clockTime.minute}} : {{clockTime.second}}</div>
+                <div id="Dashcam_DateTime">Date: {{ clockTime.month }} / {{clockTime.day}} / {{clockTime.year}}</div>
+            </div>
+            <div class="unit-container"> <!-- Add the container for #Dashcam_Unitnumber, #Dashcam_Unitname, and #Dashcam_Unitspeed -->
+                <div id="Dashcam_Unitnumber">Unit: {{ unitNumber }}</div>
+                <div id="Dashcam_Unitname">Unit Name: {{ unitName }}</div>
+                <div id="Dashcam_Unitspeed">Unit Speed: {{ unitSpeed }} {{ unitSpeedType }}</div>
+            </div>
+            <div class="overlay-container"> <!-- Add the overlay container -->
+                <div id="Dashcam_Info">
+                    <div>{{ dashMessageOne }}</div>
+                    <div style="color: rgb(25, 167, 255); font-size: 25px; font-weight: bold; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;">{{ dashLabel }}</div>
+                    <div>{{ dashMessageTwo }}</div>
+                </div>
+            </div>
+            <img id="Dashcam_Image" src="./images/seal.png">
+        </div>
+    </div>
+    <script src="./vue.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

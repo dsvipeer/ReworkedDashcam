@@ -9,6 +9,6 @@ DashcamConfig.AllowedVehicles = {
     "police2",
 }
 
-DashcamConfig.Keybind = 26 -- Change this to the desired keybind (default is 26, which is C)
+DashcamConfig.Keybind = 26 -- Change keybind here: https://docs.fivem.net/docs/game-references/controls/
 
 DashcamConfig.AutomaticRecording = true -- Set to false to disabled Rockstar Editor Recording upon activation.

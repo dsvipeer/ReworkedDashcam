@@ -1,3 +1,5 @@
+[<img src="https://img.shields.io/github/v/release/KalinkaGit/ReworkedDashcam">]() [<img src="https://img.shields.io/github/issues/KalinkaGit/ReworkedDashcam">](https://github.com/KalinkaGit/ReworkedDashcam/issues) [<img src="https://img.shields.io/github/downloads/KalinkaGit/ReworkedDashcam/total">](https://github.com/KalinkaGit/dsvipeer/releases)
+
 ```
 *******************************************
 *                                         *   

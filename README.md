@@ -1,4 +1,4 @@
-[<img src="https://img.shields.io/github/v/release/KalinkaGit/ReworkedDashcam">]() [<img src="https://img.shields.io/github/issues/KalinkaGit/ReworkedDashcam">](https://github.com/KalinkaGit/ReworkedDashcam/issues) [<img src="https://img.shields.io/github/downloads/KalinkaGit/ReworkedDashcam/total">](https://github.com/KalinkaGit/dsvipeer/releases)
+[<img src="https://img.shields.io/github/v/release/dsvipeer/ReworkedDashcam">]() [<img src="https://img.shields.io/github/issues/dsvipeer/ReworkedDashcam">](https://github.com/dsvipeer/ReworkedDashcam/issues) [<img src="https://img.shields.io/github/downloads/dsvipeer/ReworkedDashcam/total">](https://github.com/dsvipeer/dsvipeer/releases)
 
 ```
 *******************************************
